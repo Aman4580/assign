@@ -13,11 +13,7 @@ const Component = ({ className = "", iOSDevelopment }) => {
         alt=""
         src="/chevron-right-small-24.svg"
       />
-      <img
-        className="w-6 relative h-6 overflow-hidden shrink-0 hidden"
-        alt=""
-        src="/chevron-right-outline-24.svg"
-      />
+    
     </div>
   );
 };

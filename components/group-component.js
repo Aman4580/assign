@@ -16,30 +16,7 @@ const GroupComponent = ({ className = "" }) => {
       </div>
       <div className="absolute top-[0px] left-[728px] flex flex-col items-start justify-start text-gray-100">
         <Component iOSDevelopment="iOS  development" />
-        <div className="flex flex-row items-center justify-start py-3 px-0 gap-[12px] text-gray-200">
-          <div className="flex flex-col items-start justify-start gap-[4px]">
-            <div className="relative tracking-[0.38px] leading-[24px] font-semibold">
-              Android development
-            </div>
-            <div className="flex flex-col items-start justify-start">
-              <img
-                className="w-[189px] relative max-h-full"
-                alt=""
-                src="/vector-109.svg"
-              />
-            </div>
-          </div>
-          <img
-            className="w-6 relative h-6"
-            alt=""
-            src="/chevron-right-small-24.svg"
-          />
-          <img
-            className="w-6 relative h-6 overflow-hidden shrink-0 hidden"
-            alt=""
-            src="/chevron-right-outline-24.svg"
-          />
-        </div>
+        <Component iOSDevelopment="Android development" />
         <Component iOSDevelopment="Web development" />
         <Component iOSDevelopment="UI/UX design" />
         <Component iOSDevelopment="Testing" />
