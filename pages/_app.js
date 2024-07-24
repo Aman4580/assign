@@ -6,8 +6,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Aman</title>
-        
+        <title>Aman Verma</title>
+
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
